@@ -4,8 +4,8 @@ import re
 location_train = "train.tsv"
 location_test = "test.tsv"
 
-location_train_vw = "rotten.train.vw" #will be created
-location_test_vw = "rotten.test.vw" #will be created
+location_train_vw = "train.vw" #will be created
+location_test_vw = "test.vw" #will be created
 
 #cleans a string "I'm a string!?" returns as "i m a string"
 def clean(s):
